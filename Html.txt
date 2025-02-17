@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .attendance-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .attendance-table th, .attendance-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .attendance-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .attendance-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        .attendance-table a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .attendance-table {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Attendance Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <table class="attendance-table">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th>Check-In Type</th>
+                    <th>Camera Check-In Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2/17/2025 8:01:55</td>
+                    <td>Abhijna</td>
+                    <td>8277276036</td>
+                    <td>Log-in attendance - Before 7:30 AM</td>
+                    <td><a href="https://drive.google.com/open?id=1G-qy-hZeKqFU9igTX2H9Fbi2RrK2m9ed" target="_blank">View Image</a></td>
+                </tr>
+                <tr>
+                    <td>2/17/2025 8:16:00</td>
+                    <td>Santosh Bhandari</td>
+                    <td>8970399231</td>
+                    <td>Log-in attendance - Before 7:30 AM</td>
+                    <td><a href="https://drive.google.com/open?id=1kceZXG0CqzBSz_moxX1GzEXJNb9TIfVR" target="_blank">View Image</a></td>
+                </tr>
+                <tr>
+                    <td>2/17/2025 8:16:55</td>
+                    <td>Shwetha S</td>
+                    <td>8050154065</td>
+                    <td>Log-in attendance - Before 7:30 AM</td>
+                    <td><a href="https://drive.google.com/open?id=1HHbZGkDAUBw5N0ltTOBjOxVeJ00pAsQR" target="_blank">View Image</a></td>
+                </tr>
+                <tr>
+                    <td>2/17/2025 12:41:25</td>
+                    <td>Abhijna</td>
+                    <td>8277276036</td>
+                    <td>Mid-day attendance - By 12:30 PM</td>
+                    <td><a href="https://drive.google.com/open?id=1p1lL5XgMzYQCDqsMBpIGiHGuQ1hUVP54" target="_blank">View Image</a></td>
+                </tr>
+                <tr>
+                    <td>2/17/2025 12:44:20</td>
+                    <td>Santosh Bhandari</td>
+                    <td>8973099213</td>
+                    <td>Mid-day attendance - By 12:30 PM</td>
+                    <td><a href="https://drive.google.com/open?id=1CjsO9taNc5F0_bQtM4OvHGcvlFeme5TN" target="_blank">View Image</a></td>
+                </tr>
+                <!-- Add other rows here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
